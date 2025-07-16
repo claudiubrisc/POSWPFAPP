@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProdusAbstract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProdusAbstract xsi:type="Produs">
+    <Id>1</Id>
+    <Nume>Iphone 15 </Nume>
+    <CodIntern>C2</CodIntern>
+    <Producator>Generic</Producator>
+    <Pret>4000</Pret>
+    <Categorie>Telefoane</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Id>2</Id>
+    <Nume>Apple Watch Series 7</Nume>
+    <CodIntern>C3</CodIntern>
+    <Producator>Generic</Producator>
+    <Pret>2000</Pret>
+    <Categorie>Ceasuri</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Id>3</Id>
+    <Nume>Mercedes CLS 300d</Nume>
+    <CodIntern>C4</CodIntern>
+    <Producator>Generic</Producator>
+    <Pret>175000</Pret>
+    <Categorie>Masini</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Id>4</Id>
+    <Nume>Schimbare ecran</Nume>
+    <CodIntern>S5</CodIntern>
+    <Producator>Generic</Producator>
+    <Pret>1000</Pret>
+    <Categorie>Telefoane</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Id>5</Id>
+    <Nume>Detailing</Nume>
+    <CodIntern>S6</CodIntern>
+    <Producator>Generic</Producator>
+    <Pret>250</Pret>
+    <Categorie>Masini</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Id>6</Id>
+    <Nume>Înlocuire brățară</Nume>
+    <CodIntern>S7</CodIntern>
+    <Producator>Generic</Producator>
+    <Pret>200</Pret>
+    <Categorie>Ceasuri</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Pachet">
+    <Id>0</Id>
+    <Pret>5000</Pret>
+    <Categorie>Pt Iphone</Categorie>
+    <ElementeSerializabile>
+      <ProdusAbstract xsi:type="Produs">
+        <Id>1</Id>
+        <Nume>Iphone 15 </Nume>
+        <CodIntern>C2</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>4000</Pret>
+        <Categorie>Telefoane</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>4</Id>
+        <Nume>Schimbare ecran</Nume>
+        <CodIntern>S5</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>1000</Pret>
+        <Categorie>Telefoane</Categorie>
+      </ProdusAbstract>
+    </ElementeSerializabile>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Pachet">
+    <Id>0</Id>
+    <Pret>3200</Pret>
+    <Categorie>Pt Apple Watch</Categorie>
+    <ElementeSerializabile>
+      <ProdusAbstract xsi:type="Produs">
+        <Id>2</Id>
+        <Nume>Apple Watch Series 7</Nume>
+        <CodIntern>C3</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>2000</Pret>
+        <Categorie>Ceasuri</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>4</Id>
+        <Nume>Schimbare ecran</Nume>
+        <CodIntern>S5</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>1000</Pret>
+        <Categorie>Telefoane</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>6</Id>
+        <Nume>Înlocuire brățară</Nume>
+        <CodIntern>S7</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>200</Pret>
+        <Categorie>Ceasuri</Categorie>
+      </ProdusAbstract>
+    </ElementeSerializabile>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Pachet">
+    <Id>0</Id>
+    <Pret>176450</Pret>
+    <Categorie>Pt Mercedes</Categorie>
+    <ElementeSerializabile>
+      <ProdusAbstract xsi:type="Produs">
+        <Id>3</Id>
+        <Nume>Mercedes CLS 300d</Nume>
+        <CodIntern>C4</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>175000</Pret>
+        <Categorie>Masini</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>4</Id>
+        <Nume>Schimbare ecran</Nume>
+        <CodIntern>S5</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>1000</Pret>
+        <Categorie>Telefoane</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>6</Id>
+        <Nume>Înlocuire brățară</Nume>
+        <CodIntern>S7</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>200</Pret>
+        <Categorie>Ceasuri</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>5</Id>
+        <Nume>Detailing</Nume>
+        <CodIntern>S6</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>250</Pret>
+        <Categorie>Masini</Categorie>
+      </ProdusAbstract>
+    </ElementeSerializabile>
+  </ProdusAbstract>
+</ArrayOfProdusAbstract>

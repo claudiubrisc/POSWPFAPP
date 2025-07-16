@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProdusAbstract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProdusAbstract xsi:type="Produs">
+    <Id>1</Id>
+    <Nume>Iphone 12</Nume>
+    <CodIntern>C2</CodIntern>
+    <Producator>Generic</Producator>
+    <Pret>2000</Pret>
+    <Categorie>Telefoane</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Id>2</Id>
+    <Nume>Mercedes CLS</Nume>
+    <CodIntern>C3</CodIntern>
+    <Producator>Generic</Producator>
+    <Pret>150000</Pret>
+    <Categorie>Masini</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Id>3</Id>
+    <Nume>Schimbare ecran</Nume>
+    <CodIntern>S4</CodIntern>
+    <Producator>Generic</Producator>
+    <Pret>200</Pret>
+    <Categorie>Telefoane</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Id>4</Id>
+    <Nume>Schimb placute</Nume>
+    <CodIntern>S5</CodIntern>
+    <Producator>Generic</Producator>
+    <Pret>2500</Pret>
+    <Categorie>Masini</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Pachet">
+    <Id>0</Id>
+    <Pret>2200</Pret>
+    <Categorie>Pt Iphone</Categorie>
+    <ElementeSerializabile>
+      <ProdusAbstract xsi:type="Produs">
+        <Id>1</Id>
+        <Nume>Iphone 12</Nume>
+        <CodIntern>C2</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>2000</Pret>
+        <Categorie>Telefoane</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>3</Id>
+        <Nume>Schimbare ecran</Nume>
+        <CodIntern>S4</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>200</Pret>
+        <Categorie>Telefoane</Categorie>
+      </ProdusAbstract>
+    </ElementeSerializabile>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Pachet">
+    <Id>0</Id>
+    <Pret>152700</Pret>
+    <Categorie>Pt CLS</Categorie>
+    <ElementeSerializabile>
+      <ProdusAbstract xsi:type="Produs">
+        <Id>2</Id>
+        <Nume>Mercedes CLS</Nume>
+        <CodIntern>C3</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>150000</Pret>
+        <Categorie>Masini</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>3</Id>
+        <Nume>Schimbare ecran</Nume>
+        <CodIntern>S4</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>200</Pret>
+        <Categorie>Telefoane</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>4</Id>
+        <Nume>Schimb placute</Nume>
+        <CodIntern>S5</CodIntern>
+        <Producator>Generic</Producator>
+        <Pret>2500</Pret>
+        <Categorie>Masini</Categorie>
+      </ProdusAbstract>
+    </ElementeSerializabile>
+  </ProdusAbstract>
+</ArrayOfProdusAbstract>
